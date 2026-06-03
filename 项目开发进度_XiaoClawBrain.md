@@ -1,11 +1,65 @@
 # XiaoClawBrain 项目开发进度
 
 创建时间：2026-05-17
-最近更新：2026-06-03（根目录元仓库首次提交完成）
+最近更新：2026-06-03（GitHub 三仓远程结构已建立）
 
 更新规则：每次完成任务后立即更新，最新条目在上方。每次更新需包含：标记完成项、更新当前状态、记录当前进度、明确下一步要做的任务。
 
 路线图：[项目开发路线图_XiaoClawBrain.md](./项目开发路线图_XiaoClawBrain.md)
+
+---
+
+## GitHub 三仓远程结构已建立（2026-06-03）：根目录已推送，后端与固件远程边界已对齐
+
+目标：为 XiaoClawBrain 当前三仓结构建立清晰、可持续管理的 GitHub 远程布局，并尽量不打断现有后端/固件代码主线。
+
+### 完成项
+
+- [x] **创建根目录工作区文档仓库**
+  - 新建 GitHub 仓库：
+    - `MadBull8994/xiaoclawbrain-workspace`
+  - URL：
+    - `https://github.com/MadBull8994/xiaoclawbrain-workspace`
+
+- [x] **创建固件 GitHub 仓库**
+  - 新建 GitHub 仓库：
+    - `MadBull8994/xiaoclaw-esp32-firmware`
+  - URL：
+    - `https://github.com/MadBull8994/xiaoclaw-esp32-firmware`
+
+- [x] **确认后端仓库直接复用现有 GitHub 仓库**
+  - 继续使用：
+    - `MadBull8994/xiaozhi-esp32-server`
+  - URL：
+    - `https://github.com/MadBull8994/xiaozhi-esp32-server`
+
+- [x] **完成根目录仓库首次远程接入与推送**
+  - 根目录 `origin` 已设置为：
+    - `git@github.com:MadBull8994/xiaoclawbrain-workspace.git`
+  - 已完成首次推送：
+    - `main -> origin/main`
+
+- [x] **对齐后端与固件远程策略**
+  - 后端仓库 `origin` 已切换为 SSH：
+    - `git@github.com:MadBull8994/xiaozhi-esp32-server.git`
+  - 固件仓库保留现有上游 `origin`：
+    - `https://gh-proxy.com/https://github.com/beancookie/xiaoclaw.git`
+  - 同时新增用户 GitHub 远程 `madbull`：
+    - `git@github.com:MadBull8994/xiaoclaw-esp32-firmware.git`
+
+### 当前状态
+
+- 根目录文档仓库已上线 GitHub，可直接继续提交与推送
+- 后端仓库已对齐到你自己的 GitHub SSH 远程
+- 固件仓库当前采用“双远程”模式：
+  - `origin` 保留上游代理源
+  - `madbull` 指向你的 GitHub 固件仓库
+
+### 下一步
+
+- 需要时可把固件当前分支首推到 `madbull`
+- 如后续确认不再依赖原上游代理源，再评估是否把固件仓库的 `madbull` 升级为 `origin`
+- 后续 GitHub 仓库管理可按三仓分别推进：文档、后端、固件
 
 ---
 
