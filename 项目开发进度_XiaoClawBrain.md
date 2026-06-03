@@ -1,11 +1,65 @@
 # XiaoClawBrain 项目开发进度
 
 创建时间：2026-05-17
-最近更新：2026-06-03（GitHub 三仓远程结构已建立）
+最近更新：2026-06-03（固件仓库已完成首次推送到用户 GitHub）
 
 更新规则：每次完成任务后立即更新，最新条目在上方。每次更新需包含：标记完成项、更新当前状态、记录当前进度、明确下一步要做的任务。
 
 路线图：[项目开发路线图_XiaoClawBrain.md](./项目开发路线图_XiaoClawBrain.md)
+
+---
+
+## 固件仓库已完成首次推送到用户 GitHub（2026-06-03）：WIP 快照已发布到 `madbull/xiaoclaw-ghproxycom`
+
+目标：将 ESP32 固件当前真实工作状态以一次 WIP 提交形式推送到用户自己的 GitHub 固件仓库，同时避免把本地构建缓存和备份文件带入版本历史。
+
+### 完成项
+
+- [x] **清理固件仓库提交范围**
+  - 更新 `xiaoclaw-ghproxycom/.gitignore`
+  - 新增排除：
+    - `build-openclaw-verify/`
+    - `.omx/`
+    - `sdkconfig.bak`
+    - `sdkconfig.fixed`
+  - 目的：只提交实际源代码与测试改动，不提交本地构建产物和临时记录
+
+- [x] **创建固件 WIP 提交**
+  - 分支：
+    - `xiaoclaw-ghproxycom`
+  - 提交：
+    - `21136a7`
+  - 提交信息：
+    - `feat: snapshot openclaw firmware wip`
+
+- [x] **修复首次推送时的浅历史阻塞**
+  - 首次推送报错：
+    - `remote unpack failed: index-pack failed`
+    - 根因是固件仓库本地为 shallow/grafted 历史，远端空仓库无法接收缺父提交的分支链
+  - 执行：
+    - `git fetch --unshallow origin`
+  - 结果：补全上游历史后恢复正常推送路径
+
+- [x] **完成首次推送到用户 GitHub 固件仓库**
+  - 远程：
+    - `madbull -> git@github.com:MadBull8994/xiaoclaw-esp32-firmware.git`
+  - 推送结果：
+    - `xiaoclaw-ghproxycom -> madbull/xiaoclaw-ghproxycom`
+  - 已建立跟踪关系：
+    - 本地 `xiaoclaw-ghproxycom` 跟踪 `madbull/xiaoclaw-ghproxycom`
+
+### 当前状态
+
+- 固件当前真实工作状态已进入用户自己的 GitHub 仓库
+- 固件仓库仍保留双远程结构：
+  - `origin`：原上游代理源
+  - `madbull`：用户自有 GitHub 远程
+- 后续可以直接继续向 `madbull` 推送固件开发进展
+
+### 下一步
+
+- 如需要，可继续为 3 个仓库补 README、仓库说明与协作规范
+- 如后续确认固件已完全转入自有仓库维护，再评估是否把 `madbull` 升级为默认 `origin`
 
 ---
 
