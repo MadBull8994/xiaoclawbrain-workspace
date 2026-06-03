@@ -1,11 +1,59 @@
 # XiaoClawBrain 项目开发进度
 
 创建时间：2026-05-17
-最近更新：2026-06-03（固件仓库已完成首次推送到用户 GitHub）
+最近更新：2026-06-03（README 与仓库说明已对齐）
 
 更新规则：每次完成任务后立即更新，最新条目在上方。每次更新需包含：标记完成项、更新当前状态、记录当前进度、明确下一步要做的任务。
 
 路线图：[项目开发路线图_XiaoClawBrain.md](./项目开发路线图_XiaoClawBrain.md)
+
+---
+
+## README 与仓库说明已对齐（2026-06-03）：三仓 GitHub 首页口径已统一
+
+目标：补齐工作区、后端、固件三个仓库的 README 与 GitHub 仓库说明，让仓库首页直接反映 XiaoClawBrain 当前的三仓结构与“瘦设备 + 胖后端”主线。
+
+### 完成项
+
+- [x] **新增根目录 README**
+  - 新建 `README.md`
+  - 明确三仓分工：
+    - `xiaoclawbrain-workspace`
+    - `xiaozhi-esp32-server`
+    - `xiaoclaw-esp32-firmware`
+  - 明确当前主架构：
+    - ESP32 薄客户端
+    - 后端胖服务
+    - 文档/路线图由工作区仓库协调
+
+- [x] **补齐后端仓库 README 项目说明**
+  - 更新 `xiaozhi-esp32-server/README.md`
+  - 新增 `XiaoClawBrain fork note`
+  - 说明当前仓库在 XiaoClawBrain 中的职责、配套仓库与当前分支定位
+
+- [x] **补齐固件仓库 README 项目说明**
+  - 更新 `xiaoclaw-ghproxycom/README.md`
+  - 新增 `XiaoClawBrain fork note`
+  - 明确当前生产主线中该仓库主要承担设备固件/薄客户端职责
+  - 说明 README 中更大范围的本地 Agent 能力描述属于来源项目历史语境，避免 GitHub 首页误导
+
+- [x] **统一 GitHub 仓库 description**
+  - `MadBull8994/xiaoclawbrain-workspace`
+  - `MadBull8994/xiaozhi-esp32-server`
+  - `MadBull8994/xiaoclaw-esp32-firmware`
+  - 三者均已更新为与当前 XiaoClawBrain 分工一致的简短说明
+
+### 当前状态
+
+- 三个 GitHub 仓库首页现在都能直接看出：
+  - 这个仓库是干什么的
+  - 它在 XiaoClawBrain 三仓结构里的位置
+  - 当前项目主线是“ESP32 薄客户端 + 后端胖服务”
+
+### 下一步
+
+- 如需要，可继续补三仓 README 中的快速开始、分支策略、发布约定和协作规范
+- 如需要，可进一步补 GitHub Topics、About 链接和仓库首页导航
 
 ---
 
