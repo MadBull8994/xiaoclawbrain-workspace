@@ -1,0 +1,31 @@
+.DS_Store
+.pytest_cache/
+.omx/
+.sisyphus/
+
+# Root wrapper repo should not absorb child repositories.
+xiaozhi-esp32-server/
+xiaoclaw-ghproxycom/
+
+# Workspace-only backups and generated assets.
+backup_sensitive_*/
+backup_snapshot_*/
+backup_snapshot_*.tar.gz
+stable_version_assets/
+data/
+tmp/
+
+# Archived and extracted workspace copies.
+xiaozhi-esp32-server.zip
+xiaozhi-esp32-server_old_20260520/
+工作区备份/
+
+# Diagnostic and local-only runtime artifacts stay outside the root doc repo.
+hardware_bringup/
+screenlog.*
+opencode.json
+
+# Build and release outputs anywhere in the workspace.
+**/build/
+**/managed_components/
+**/releases/

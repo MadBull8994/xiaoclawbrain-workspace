@@ -1,0 +1,862 @@
+--- SERIAL LOG STARTED 10:09:55 ---
+10:10:01 I (7619583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:10:11 I (7629573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:10:21 I (7639583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:10:21 I (7639583) XiaoClawWS: json sent len=15
+10:10:31 I (7649573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:10:41 I (7659583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:10:51 I (7669573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:10:51 I (7669583) XiaoClawWS: json sent len=15
+10:11:01 I (7679583) SystemInfo: free sram: 21015 minimal sram: 8475
+10:11:11 I (7689573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:11:21 I (7699583) SystemInfo: free sram: 21015 minimal sram: 8475
+10:11:21 I (7699583) XiaoClawWS: json sent len=15
+10:11:31 I (7709573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:11:41 I (7719583) SystemInfo: free sram: 21015 minimal sram: 8475
+10:11:51 I (7729573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:11:51 I (7729583) XiaoClawWS: json sent len=15
+10:12:01 I (7739583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:12:11 I (7749573) SystemInfo: free sram: 21015 minimal sram: 8475
+10:12:21 I (7759583) SystemInfo: free sram: 20463 minimal sram: 8475
+10:12:21 I (7759583) XiaoClawWS: json sent len=15
+10:12:31 I (7769573) SystemInfo: free sram: 21015 minimal sram: 8475
+10:12:41 I (7779583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:12:51 I (7789573) SystemInfo: free sram: 21015 minimal sram: 8475
+10:12:51 I (7789583) XiaoClawWS: json sent len=15
+10:13:01 I (7799583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:13:11 I (7809573) SystemInfo: free sram: 21015 minimal sram: 8475
+10:13:21 I (7819583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:13:21 I (7819583) XiaoClawWS: json sent len=15
+10:13:31 I (7829573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:13:41 I (7839583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:13:51 I (7849573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:13:51 I (7849583) XiaoClawWS: json sent len=15
+10:14:01 I (7859583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:14:11 I (7869573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:14:21 I (7879583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:14:21 I (7879583) XiaoClawWS: json sent len=15
+10:14:31 I (7889573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:14:41 I (7899583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:14:51 I (7909573) SystemInfo: free sram: 20499 minimal sram: 8475
+10:14:51 I (7909583) XiaoClawWS: json sent len=15
+10:15:01 I (7919583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:15:11 I (7929573) SystemInfo: free sram: 20371 minimal sram: 8475
+10:15:21 I (7939583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:15:21 I (7939583) XiaoClawWS: json sent len=15
+10:15:31 I (7949573) SystemInfo: free sram: 20371 minimal sram: 8475
+10:15:41 I (7959583) SystemInfo: free sram: 20499 minimal sram: 8475
+10:15:45 I (7963963) Application: Wake word detected: '你好小智' (state=idle)
+10:15:45 I (7963963) StateMachine: State: idle -> connecting
+10:15:45 I (7963963) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:15:45 I (7963973) wifi:Set ps type: 0, coexist: 0
+10:15:45 
+10:15:45 I (7963983) StateMachine: State: connecting -> wakeup_detected
+10:15:45 I (7963983) Application: Wake word detected (XiaoClaw WS): 你好小智
+10:15:45 I (7963993) XiaoClawWS: json sent len=56
+10:15:45 I (7963993) StateMachine: State: wakeup_detected -> listening
+10:15:45 I (7963993) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:15:45 I (7964003) XiaoClawWS: server state=wakeup_detected
+10:15:45 I (7964003) wifi:I (7964003) Application: XiaoClaw server state=wakeup_detected
+10:15:45 Set ps type: 0, coexist: 0
+10:15:45 
+10:15:45 I (7964013) Application: Ignore regressive remote state=wakeup_detected, current=listening
+10:15:45 I (7964033) XiaoClawWS: json sent len=47
+10:15:45 I (7964033) AFE: AFE Version: (1MIC_V251128)
+10:15:45 I (7964033) AFE: Input PCM Config: total 1 channels(1 microphone, 0 playback), sample rate:16000
+10:15:45 I (7964043) AFE: AFE Pipeline: [input] -> |VAD(WebRTC)| -> [output]
+10:15:45 I (7964043) AfeAudioProcessor: Audio communication task started, feed size: 512 fetch size: 512
+10:15:45 I (7964043) Application: XiaoClaw audio upload started
+10:15:45 I (7964063) AudioCodec: Set output enable to true
+10:15:45 I (7964233) Application: opus cb OK count=1 len=143 upload_en=1 state=listening
+10:15:45 I (7964233) StateMachine: State: listening -> uploading_audio
+10:15:45 W (7964233) SingleLed: Unknown led strip event: 14
+10:15:45 I (7964233) XiaoClawWS: FIRST opus frame uploaded len=143
+10:15:47 I (7965673) XiaoClawWS: opus upload frames=25 bytes=3603 last_len=148
+10:15:47 I (7965733) Application: opus cb OK count=26 len=160 upload_en=1 state=uploading_audio
+10:15:48 I (7967173) XiaoClawWS: opus upload frames=50 bytes=7238 last_len=143
+10:15:48 I (7967233) Application: opus cb OK count=51 len=143 upload_en=1 state=uploading_audio
+10:15:49 I (7967583) XiaoClawWS: server state=recognizing
+10:15:49 I (7967583) Application: XiaoClaw server state=recognizing
+10:15:49 I (7967583) StateMachine: State: uploading_audio -> recognizing
+10:15:49 W (7967583) SingleLed: Unknown led strip event: 15
+10:15:49 I (7967593) Application: recognizing timeout started (10s)
+10:15:49 W (7967593) Application: opus cb drop[1] bad_state=recognizing total_cb=57
+10:15:49 I (7967603) XiaoClawWS: stt received len=18
+10:15:50 I (7969113) XiaoClawWS: tts start received
+10:15:50 I (7969113) Application: XiaoClaw tts_start -> synthesizing
+10:15:50 I (7969113) StateMachine: State: recognizing -> synthesizing
+10:15:50 W (7969113) SingleLed: Unknown led strip event: 16
+10:15:50 I (7969113) XiaoClawWS: tts sentence state=sentence_start
+10:15:50 I (7969123) XiaoClawWS: FIRST tts binary frame len=100
+10:15:50 I (7969133) Application: FIRST tts binary frame OK len=100 state=synthesizing
+10:15:50 I (7969133) StateMachine: State: synthesizing -> speaking
+10:15:50 I (7969143) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:15:50 I (7969143) AudioService: Resampling audio from 24000 to 16000
+10:15:50 I (7969153) wifi:Set ps type: 0, coexist: 0
+10:15:50 
+10:15:51 I (7970273) XiaoClawWS: tts binary frames=25 bytes=4280 last_len=174
+10:15:53 I (7971763) XiaoClawWS: tts binary frames=50 bytes=7998 last_len=168
+10:15:54 I (7973263) XiaoClawWS: tts binary frames=75 bytes=12310 last_len=185
+10:15:55 I (7974113) XiaoClawWS: tts sentence state=sentence_start
+10:15:56 I (7974763) XiaoClawWS: tts binary frames=100 bytes=15907 last_len=180
+10:15:57 I (7975613) XiaoClawWS: tts stop received
+10:15:57 I (7975613) Application: XiaoClaw tts_end -> idle
+10:15:57 I (7975613) StateMachine: State: speaking -> idle
+10:15:57 I (7975613) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:16:07 I (7985583) SystemInfo: free sram: 16003 minimal sram: 7691
+10:16:07 I (7985613) OpenClawV27: Restoring Wi-Fi low power mode after follow-up window
+10:16:07 I (7985613) WifiStation: Setting WiFi power save level: LOW_POWER (MAX_MODEM)
+10:16:07 I (7985623) wifi:Set ps type: 2, coexist: 0
+10:16:07 
+10:16:12 I (7991063) AudioCodec: Set output enable to false
+10:16:13 I (7991723) Application: Wake word detected: '你好小智' (state=idle)
+10:16:13 I (7991723) StateMachine: State: idle -> connecting
+10:16:13 I (7991723) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:16:13 I (7991733) wifi:Set ps type: 0, coexist: 0
+10:16:13 
+10:16:13 I (7991753) StateMachine: State: connecting -> wakeup_detected
+10:16:13 I (7991753) Application: Wake word detected (XiaoClaw WS): 你好小智
+10:16:13 I (7991753) XiaoClawWS: json sent len=56
+10:16:13 I (7991753) StateMachine: State: wakeup_detected -> listening
+10:16:13 I (7991763) XiaoClawWS: server state=wakeup_detected
+10:16:13 I (7991763) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:16:13 I (7991763) Application: XiaoClaw server state=wakeup_detected
+10:16:13 I (7991773) wifi:Set ps type: 0, coexist: 0
+10:16:13 
+10:16:13 I (7991773) Application: Ignore regressive remote state=wakeup_detected, current=listening
+10:16:13 I (7991793) XiaoClawWS: json sent len=47
+10:16:13 I (7991793) Application: XiaoClaw audio upload started
+10:16:13 I (7991793) AudioCodec: Set output enable to true
+10:16:13 I (7991973) StateMachine: State: listening -> uploading_audio
+10:16:13 W (7991973) SingleLed: Unknown led strip event: 14
+10:16:13 I (7991973) XiaoClawWS: FIRST opus frame uploaded len=154
+10:16:14 I (7992993) Application: opus cb OK count=101 len=146 upload_en=1 state=uploading_audio
+10:16:15 I (7993413) XiaoClawWS: opus upload frames=25 bytes=3680 last_len=147
+10:16:16 I (7994503) Application: opus cb OK count=126 len=147 upload_en=1 state=uploading_audio
+10:16:16 I (7994913) XiaoClawWS: opus upload frames=50 bytes=7301 last_len=137
+10:16:17 I (7995553) XiaoClawWS: server state=recognizing
+10:16:17 I (7995553) Application: XiaoClaw server state=recognizing
+10:16:17 I (7995553) StateMachine: State: uploading_audio -> recognizing
+10:16:17 W (7995553) SingleLed: Unknown led strip event: 15
+10:16:17 I (7995563) Application: recognizing timeout started (10s)
+10:16:17 I (7995573) XiaoClawWS: stt received len=18
+10:16:17 I (7995573) XiaoClawWS: server state=thinking
+10:16:17 I (7995573) Application: XiaoClaw server state=thinking
+10:16:17 I (7995583) StateMachine: State: recognizing -> thinking
+10:16:17 W (7995583) SingleLed: Unknown led strip event: 6
+10:16:17 I (7995593) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:16:17 I (7995593) wifi:Set ps type: 0, coexist: 0
+10:16:17 
+10:16:18 I (7996833) XiaoClawWS: tts start received
+10:16:18 I (7996843) Application: XiaoClaw tts_start -> synthesizing
+10:16:18 I (7996843) StateMachine: State: thinking -> synthesizing
+10:16:18 W (7996843) SingleLed: Unknown led strip event: 16
+10:16:18 I (7996843) XiaoClawWS: tts sentence state=sentence_start
+10:16:18 I (7996853) XiaoClawWS: FIRST tts binary frame len=85
+10:16:18 I (7996853) StateMachine: State: synthesizing -> speaking
+10:16:18 I (7996863) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:16:18 I (7996863) AudioService: Resampling audio from 24000 to 16000
+10:16:18 I (7996863) wifi:Set ps type: 0, coexist: 0
+10:16:18 
+10:16:19 I (7997993) XiaoClawWS: tts binary frames=25 bytes=4096 last_len=127
+10:16:19 I (7998293) XiaoClawWS: tts sentence state=sentence_start
+10:16:21 I (7999493) XiaoClawWS: tts binary frames=50 bytes=7620 last_len=110
+10:16:22 I (8000993) XiaoClawWS: tts binary frames=75 bytes=11743 last_len=162
+10:16:23 I (8001773) XiaoClawWS: tts stop received
+10:16:23 I (8001773) Application: XiaoClaw tts_end -> idle
+10:16:23 I (8001773) StateMachine: State: speaking -> idle
+10:16:23 I (8001773) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:16:33 I (8011583) SystemInfo: free sram: 16331 minimal sram: 7691
+10:16:33 I (8011783) OpenClawV27: Restoring Wi-Fi low power mode after follow-up window
+10:16:33 I (8011783) WifiStation: Setting WiFi power save level: LOW_POWER (MAX_MODEM)
+10:16:33 I (8011783) wifi:Set ps type: 2, coexist: 0
+10:16:33 
+10:16:38 I (8016793) AudioCodec: Set output enable to false
+10:16:43 I (8021573) SystemInfo: free sram: 16883 minimal sram: 7691
+10:16:47 I (8026053) Application: Wake word detected: '你好小智' (state=idle)
+10:16:47 I (8026053) StateMachine: State: idle -> connecting
+10:16:47 I (8026053) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:16:47 I (8026063) wifi:Set ps type: 0, coexist: 0
+10:16:47 
+10:16:47 I (8026073) StateMachine: State: connecting -> wakeup_detected
+10:16:47 I (8026073) Application: Wake word detected (XiaoClaw WS): 你好小智
+10:16:47 I (8026083) XiaoClawWS: json sent len=56
+10:16:47 I (8026083) StateMachine: State: wakeup_detected -> listening
+10:16:47 I (8026083) XiaoClawWS: server state=wakeup_detected
+10:16:47 I (8026093) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:16:47 I (8026103) wifi:Set ps type: 0, coexist: 0
+10:16:47 I (8026093) Application: XiaoClaw server state=wakeup_detected
+10:16:47 
+10:16:47 I (8026113) Application: Ignore regressive remote state=wakeup_detected, current=listening
+10:16:47 I (8026113) XiaoClawWS: json sent len=47
+10:16:47 I (8026123) Application: XiaoClaw audio upload started
+10:16:47 I (8026123) AudioCodec: Set output enable to true
+10:16:47 I (8026273) StateMachine: State: listening -> uploading_audio
+10:16:47 W (8026283) SingleLed: Unknown led strip event: 14
+10:16:47 I (8026283) XiaoClawWS: FIRST opus frame uploaded len=148
+10:16:48 I (8026663) Application: opus cb OK count=151 len=146 upload_en=1 state=uploading_audio
+10:16:49 I (8027713) XiaoClawWS: opus upload frames=25 bytes=3705 last_len=146
+10:16:49 I (8028133) Application: opus cb OK count=176 len=136 upload_en=1 state=uploading_audio
+10:16:50 I (8029073) XiaoClawWS: server state=recognizing
+10:16:50 I (8029073) Application: XiaoClaw server state=recognizing
+10:16:50 I (8029073) StateMachine: State: uploading_audio -> recognizing
+10:16:50 W (8029073) SingleLed: Unknown led strip event: 15
+10:16:50 I (8029083) Application: recognizing timeout started (10s)
+10:16:50 I (8029083) XiaoClawWS: stt received len=12
+10:16:50 I (8029093) XiaoClawWS: server state=thinking
+10:16:50 I (8029093) Application: XiaoClaw server state=thinking
+10:16:50 I (8029103) StateMachine: State: recognizing -> thinking
+10:16:50 W (8029103) SingleLed: Unknown led strip event: 6
+10:16:50 I (8029103) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:16:50 I (8029113) wifi:Set ps type: 0, coexist: 0
+10:16:50 
+10:16:52 I (8030503) XiaoClawWS: tts start received
+10:16:52 I (8030503) Application: XiaoClaw tts_start -> synthesizing
+10:16:52 I (8030503) StateMachine: State: thinking -> synthesizing
+10:16:52 W (8030513) SingleLed: Unknown led strip event: 16
+10:16:52 I (8030513) XiaoClawWS: tts sentence state=sentence_start
+10:16:52 I (8030523) XiaoClawWS: FIRST tts binary frame len=112
+10:16:52 I (8030523) StateMachine: State: synthesizing -> speaking
+10:16:52 I (8030533) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:16:52 I (8030533) AudioService: Resampling audio from 24000 to 16000
+10:16:52 I (8030533) wifi:Set ps type: 0, coexist: 0
+10:16:52 
+10:16:53 I (8031653) XiaoClawWS: tts binary frames=25 bytes=3616 last_len=21
+10:16:53 I (8031663) XiaoClawWS: tts sentence state=sentence_start
+10:16:54 I (8033153) XiaoClawWS: tts binary frames=50 bytes=7832 last_len=150
+10:16:56 I (8034653) XiaoClawWS: tts binary frames=75 bytes=11730 last_len=162
+10:16:57 I (8036153) XiaoClawWS: tts binary frames=100 bytes=15789 last_len=88
+10:16:59 I (8037653) XiaoClawWS: tts binary frames=125 bytes=20045 last_len=180
+10:17:00 I (8038553) XiaoClawWS: tts stop received
+10:17:00 I (8038553) Application: XiaoClaw tts_end -> idle
+10:17:00 I (8038553) StateMachine: State: speaking -> idle
+10:17:00 I (8038563) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:17:09 I (8047573) SystemInfo: free sram: 16771 minimal sram: 7691
+10:17:10 I (8048563) OpenClawV27: Restoring Wi-Fi low power mode after follow-up window
+10:17:10 I (8048563) WifiStation: Setting WiFi power save level: LOW_POWER (MAX_MODEM)
+10:17:10 I (8048563) wifi:Set ps type: 2, coexist: 0
+10:17:10 
+10:17:15 I (8053383) Application: Wake word detected: '你好小智' (state=idle)
+10:17:15 I (8053383) StateMachine: State: idle -> connecting
+10:17:15 I (8053383) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:17:15 I (8053383) wifi:Set ps type: 0, coexist: 0
+10:17:15 
+10:17:15 I (8053403) StateMachine: State: connecting -> wakeup_detected
+10:17:15 I (8053403) Application: Wake word detected (XiaoClaw WS): 你好小智
+10:17:15 I (8053413) XiaoClawWS: json sent len=56
+10:17:15 I (8053413) StateMachine: State: wakeup_detected -> listening
+10:17:15 I (8053413) XiaoClawWS: server state=wakeup_detected
+10:17:15 I (8053413) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:17:15 I (8053423) Application: XiaoClaw server state=wakeup_detected
+10:17:15 I (8053423) wifi:Set ps type: 0, coexist: 0
+10:17:15 
+10:17:15 I (8053433) Application: Ignore regressive remote state=wakeup_detected, current=listening
+10:17:15 I (8053453) XiaoClawWS: json sent len=47
+10:17:15 I (8053453) Application: XiaoClaw audio upload started
+10:17:15 I (8053593) StateMachine: State: listening -> uploading_audio
+10:17:15 W (8053603) SingleLed: Unknown led strip event: 14
+10:17:15 I (8053603) XiaoClawWS: FIRST opus frame uploaded len=159
+10:17:15 I (8054073) Application: opus cb OK count=201 len=146 upload_en=1 state=uploading_audio
+10:17:16 I (8055033) XiaoClawWS: opus upload frames=25 bytes=3709 last_len=146
+10:17:17 I (8055583) Application: opus cb OK count=226 len=143 upload_en=1 state=uploading_audio
+10:17:18 I (8056313) XiaoClawWS: server state=recognizing
+10:17:18 I (8056313) Application: XiaoClaw server state=recognizing
+10:17:18 I (8056313) StateMachine: State: uploading_audio -> recognizing
+10:17:18 W (8056313) SingleLed: Unknown led strip event: 15
+10:17:18 I (8056323) Application: recognizing timeout started (10s)
+10:17:18 I (8056333) XiaoClawWS: stt received len=12
+10:17:18 I (8056333) XiaoClawWS: server state=thinking
+10:17:18 I (8056333) Application: XiaoClaw server state=thinking
+10:17:18 I (8056343) StateMachine: State: recognizing -> thinking
+10:17:18 W (8056343) SingleLed: Unknown led strip event: 6
+10:17:18 I (8056353) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:17:18 I (8056353) wifi:Set ps type: 0, coexist: 0
+10:17:18 
+10:17:19 I (8057453) XiaoClawWS: tts start received
+10:17:19 I (8057453) Application: XiaoClaw tts_start -> synthesizing
+10:17:19 I (8057453) StateMachine: State: thinking -> synthesizing
+10:17:19 W (8057453) SingleLed: Unknown led strip event: 16
+10:17:19 I (8057453) XiaoClawWS: tts sentence state=sentence_start
+10:17:19 I (8057463) XiaoClawWS: FIRST tts binary frame len=139
+10:17:19 I (8057463) StateMachine: State: synthesizing -> speaking
+10:17:19 I (8057473) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:17:19 I (8057473) AudioService: Resampling audio from 24000 to 16000
+10:17:19 I (8057483) wifi:Set ps type: 0, coexist: 0
+10:17:19 
+10:17:19 I (8057943) XiaoClawWS: tts sentence state=sentence_start
+10:17:20 I (8058603) XiaoClawWS: tts binary frames=25 bytes=3281 last_len=118
+10:17:21 I (8060093) XiaoClawWS: tts binary frames=50 bytes=7339 last_len=157
+10:17:23 I (8061603) XiaoClawWS: tts binary frames=75 bytes=11482 last_len=153
+10:17:23 I (8062023) XiaoClawWS: tts sentence state=sentence_start
+10:17:24 I (8063103) XiaoClawWS: tts binary frames=100 bytes=15013 last_len=168
+10:17:25 I (8064123) XiaoClawWS: tts sentence state=sentence_start
+10:17:26 I (8064593) XiaoClawWS: tts binary frames=125 bytes=18490 last_len=188
+10:17:27 I (8066103) XiaoClawWS: tts binary frames=150 bytes=22619 last_len=175
+10:17:28 I (8066573) SystemInfo: free sram: 16211 minimal sram: 7691
+10:17:28 I (8067003) XiaoClawWS: tts sentence state=sentence_start
+10:17:29 I (8067603) XiaoClawWS: tts binary frames=175 bytes=26153 last_len=163
+10:17:30 I (8069043) XiaoClawWS: tts sentence state=sentence_start
+10:17:30 I (8069103) XiaoClawWS: tts binary frames=200 bytes=29697 last_len=93
+10:17:31 I (8070183) XiaoClawWS: tts sentence state=sentence_start
+10:17:32 I (8070603) XiaoClawWS: tts binary frames=225 bytes=33401 last_len=172
+10:17:33 I (8072103) XiaoClawWS: tts binary frames=250 bytes=37393 last_len=166
+10:17:35 I (8073603) XiaoClawWS: tts binary frames=275 bytes=41527 last_len=88
+10:17:36 I (8075103) XiaoClawWS: tts binary frames=300 bytes=45453 last_len=168
+10:17:37 I (8076123) XiaoClawWS: tts sentence state=sentence_start
+10:17:38 I (8076583) SystemInfo: free sram: 16739 minimal sram: 7691
+10:17:38 I (8076603) XiaoClawWS: tts binary frames=325 bytes=49049 last_len=143
+10:17:39 I (8078103) XiaoClawWS: tts binary frames=350 bytes=53336 last_len=150
+10:17:40 I (8078463) XiaoClawWS: tts sentence state=sentence_start
+10:17:41 I (8079603) XiaoClawWS: tts binary frames=375 bytes=56806 last_len=176
+10:17:42 I (8081103) XiaoClawWS: tts binary frames=400 bytes=60761 last_len=144
+10:17:43 I (8082123) XiaoClawWS: tts sentence state=sentence_start
+10:17:44 I (8082603) XiaoClawWS: tts binary frames=425 bytes=64210 last_len=162
+10:17:45 I (8084103) XiaoClawWS: tts binary frames=450 bytes=68313 last_len=161
+10:17:46 I (8084893) XiaoClawWS: tts sentence state=sentence_start
+10:17:47 I (8085613) XiaoClawWS: tts binary frames=475 bytes=71910 last_len=192
+10:17:48 I (8086573) SystemInfo: free sram: 17075 minimal sram: 7691
+10:17:48 I (8086583) XiaoClawWS: json sent len=15
+10:17:48 I (8087053) XiaoClawWS: tts sentence state=sentence_start
+10:17:48 I (8087173) XiaoClawWS: tts binary frames=500 bytes=75442 last_len=105
+10:17:50 I (8088603) XiaoClawWS: tts binary frames=525 bytes=79518 last_len=177
+10:17:51 I (8089633) XiaoClawWS: tts stop received
+10:17:51 I (8089633) Application: XiaoClaw tts_end -> idle
+10:17:51 I (8089633) StateMachine: State: speaking -> idle
+10:17:51 I (8089633) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:18:01 I (8099573) SystemInfo: free sram: 16235 minimal sram: 7691
+10:18:01 I (8099633) OpenClawV27: Restoring Wi-Fi low power mode after follow-up window
+10:18:01 I (8099633) WifiStation: Setting WiFi power save level: LOW_POWER (MAX_MODEM)
+10:18:01 I (8099643) wifi:Set ps type: 2, coexist: 0
+10:18:01 
+10:18:06 I (8105093) Application: Wake word detected: '你好小智' (state=idle)
+10:18:06 I (8105093) StateMachine: State: idle -> connecting
+10:18:06 I (8105093) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:18:06 I (8105103) wifi:Set ps type: 0, coexist: 0
+10:18:06 
+10:18:06 I (8105113) StateMachine: State: connecting -> wakeup_detected
+10:18:06 I (8105113) Application: Wake word detected (XiaoClaw WS): 你好小智
+10:18:06 I (8105123) XiaoClawWS: json sent len=56
+10:18:06 I (8105123) StateMachine: State: wakeup_detected -> listening
+10:18:06 I (8105123) AudioCodec: Set output enable to false
+10:18:06 I (8105123) XiaoClawWS: server state=wakeup_detected
+10:18:06 I (8105133) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:18:06 I (8105143) wifi:Set ps type: 0, coexist: 0
+10:18:06 I (8105133) Application: XiaoClaw server state=wakeup_detected
+10:18:06 
+10:18:06 I (8105153) Application: Ignore regressive remote state=wakeup_detected, current=listening
+10:18:06 I (8105153) XiaoClawWS: json sent len=47
+10:18:06 I (8105163) Application: XiaoClaw audio upload started
+10:18:06 I (8105173) AudioCodec: Set output enable to true
+10:18:07 I (8105313) StateMachine: State: listening -> uploading_audio
+10:18:07 W (8105313) SingleLed: Unknown led strip event: 14
+10:18:07 I (8105323) XiaoClawWS: FIRST opus frame uploaded len=146
+10:18:07 I (8106023) Application: opus cb OK count=251 len=141 upload_en=1 state=uploading_audio
+10:18:08 I (8106753) XiaoClawWS: opus upload frames=25 bytes=3661 last_len=146
+10:18:09 I (8107513) Application: opus cb OK count=276 len=137 upload_en=1 state=uploading_audio
+10:18:09 I (8108233) XiaoClawWS: opus upload frames=50 bytes=7322 last_len=158
+10:18:10 I (8109033) Application: opus cb OK count=301 len=153 upload_en=1 state=uploading_audio
+10:18:11 I (8109733) XiaoClawWS: opus upload frames=75 bytes=10980 last_len=145
+10:18:12 I (8110533) Application: opus cb OK count=326 len=143 upload_en=1 state=uploading_audio
+10:18:12 I (8110963) XiaoClawWS: server state=recognizing
+10:18:12 I (8110963) Application: XiaoClaw server state=recognizing
+10:18:12 I (8110963) StateMachine: State: uploading_audio -> recognizing
+10:18:12 I (8110963) Application: recognizing timeout started (10s)
+10:18:12 W (8110963) SingleLed: Unknown led strip event: 15
+10:18:12 I (8110973) XiaoClawWS: stt received len=51
+10:18:13 I (8111383) XiaoClawWS: tts start received
+10:18:13 I (8111383) Application: XiaoClaw tts_start -> synthesizing
+10:18:13 I (8111383) StateMachine: State: recognizing -> synthesizing
+10:18:13 W (8111383) SingleLed: Unknown led strip event: 16
+10:18:13 I (8111383) XiaoClawWS: tts sentence state=sentence_start
+10:18:13 I (8111393) XiaoClawWS: FIRST tts binary frame len=97
+10:18:13 I (8111393) StateMachine: State: synthesizing -> speaking
+10:18:13 I (8111403) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:18:13 I (8111403) AudioService: Resampling audio from 24000 to 16000
+10:18:13 I (8111413) wifi:Set ps type: 0, coexist: 0
+10:18:13 
+10:18:14 I (8112533) XiaoClawWS: tts binary frames=25 bytes=4268 last_len=159
+10:18:15 I (8114033) XiaoClawWS: tts binary frames=50 bytes=8091 last_len=175
+10:18:17 I (8115523) XiaoClawWS: tts binary frames=75 bytes=12396 last_len=189
+10:18:18 I (8116373) XiaoClawWS: tts sentence state=sentence_start
+10:18:18 I (8117023) XiaoClawWS: tts binary frames=100 bytes=15863 last_len=176
+10:18:19 I (8117883) XiaoClawWS: tts stop received
+10:18:19 I (8117883) Application: XiaoClaw tts_end -> idle
+10:18:19 I (8117883) StateMachine: State: speaking -> idle
+10:18:19 I (8117883) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:18:29 I (8127583) SystemInfo: free sram: 16455 minimal sram: 7691
+10:18:29 I (8127883) OpenClawV27: Restoring Wi-Fi low power mode after follow-up window
+10:18:29 I (8127883) WifiStation: Setting WiFi power save level: LOW_POWER (MAX_MODEM)
+10:18:29 I (8127893) wifi:Set ps type: 2, coexist: 0
+10:18:29 
+10:18:34 I (8133173) AudioCodec: Set output enable to false
+10:18:36 I (8134563) Application: Wake word detected: '你好小智' (state=idle)
+10:18:36 I (8134563) StateMachine: State: idle -> connecting
+10:18:36 I (8134563) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:18:36 I (8134573) wifi:Set ps type: 0, coexist: 0
+10:18:36 
+10:18:36 I (8134593) StateMachine: State: connecting -> wakeup_detected
+10:18:36 I (8134593) Application: Wake word detected (XiaoClaw WS): 你好小智
+10:18:36 I (8134593) XiaoClawWS: json sent len=56
+10:18:36 I (8134593) StateMachine: State: wakeup_detected -> listening
+10:18:36 I (8134603) XiaoClawWS: server state=wakeup_detected
+10:18:36 I (8134603) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:18:36 I (8134603) Application: XiaoClaw server state=wakeup_detected
+10:18:36 I (8134613) wifi:Set ps type: 0, coexist: 0
+10:18:36 
+10:18:36 I (8134613) Application: Ignore regressive remote state=wakeup_detected, current=listening
+10:18:36 I (8134633) XiaoClawWS: json sent len=47
+10:18:36 I (8134633) Application: XiaoClaw audio upload started
+10:18:36 I (8134633) AudioCodec: Set output enable to true
+10:18:36 I (8134783) StateMachine: State: listening -> uploading_audio
+10:18:36 W (8134783) SingleLed: Unknown led strip event: 14
+10:18:36 I (8134783) XiaoClawWS: FIRST opus frame uploaded len=147
+10:18:37 I (8135383) Application: opus cb OK count=351 len=147 upload_en=1 state=uploading_audio
+10:18:37 I (8136223) XiaoClawWS: opus upload frames=25 bytes=3663 last_len=147
+10:18:38 I (8136863) Application: opus cb OK count=376 len=146 upload_en=1 state=uploading_audio
+10:18:39 I (8137723) XiaoClawWS: opus upload frames=50 bytes=7321 last_len=146
+10:18:40 I (8138363) Application: opus cb OK count=401 len=143 upload_en=1 state=uploading_audio
+10:18:40 I (8139013) XiaoClawWS: server state=recognizing
+10:18:40 I (8139013) Application: XiaoClaw server state=recognizing
+10:18:40 I (8139013) StateMachine: State: uploading_audio -> recognizing
+10:18:40 W (8139013) SingleLed: Unknown led strip event: 15
+10:18:40 I (8139023) Application: recognizing timeout started (10s)
+10:18:40 I (8139023) XiaoClawWS: stt received len=27
+10:18:40 I (8139033) XiaoClawWS: server state=thinking
+10:18:40 I (8139033) Application: XiaoClaw server state=thinking
+10:18:40 I (8139043) StateMachine: State: recognizing -> thinking
+10:18:40 W (8139043) SingleLed: Unknown led strip event: 6
+10:18:40 I (8139043) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:18:40 I (8139053) wifi:Set ps type: 0, coexist: 0
+10:18:40 
+10:18:41 I (8140193) XiaoClawWS: tts start received
+10:18:41 I (8140193) Application: XiaoClaw tts_start -> synthesizing
+10:18:41 I (8140193) StateMachine: State: thinking -> synthesizing
+10:18:41 W (8140203) SingleLed: Unknown led strip event: 16
+10:18:41 I (8140203) XiaoClawWS: tts sentence state=sentence_start
+10:18:41 I (8140213) XiaoClawWS: FIRST tts binary frame len=118
+10:18:41 I (8140213) StateMachine: State: synthesizing -> speaking
+10:18:41 I (8140223) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:18:41 I (8140223) AudioService: Resampling audio from 24000 to 16000
+10:18:41 I (8140223) wifi:Set ps type: 0, coexist: 0
+10:18:41 
+10:18:43 I (8141343) XiaoClawWS: tts binary frames=25 bytes=4243 last_len=146
+10:18:43 I (8141653) XiaoClawWS: tts sentence state=sentence_start
+10:18:44 I (8142843) XiaoClawWS: tts binary frames=50 bytes=7800 last_len=170
+10:18:46 I (8144343) XiaoClawWS: tts binary frames=75 bytes=11797 last_len=148
+10:18:47 I (8145853) XiaoClawWS: tts binary frames=100 bytes=15839 last_len=190
+10:18:49 I (8147343) XiaoClawWS: tts binary frames=125 bytes=20080 last_len=200
+10:18:50 I (8148963) XiaoClawWS: tts stop received
+10:18:50 I (8148963) Application: XiaoClaw tts_end -> idle
+10:18:50 I (8148963) StateMachine: State: speaking -> idle
+10:18:50 I (8148973) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:19:00 I (8158573) SystemInfo: free sram: 16243 minimal sram: 7691
+10:19:00 I (8158973) OpenClawV27: Restoring Wi-Fi low power mode after follow-up window
+10:19:00 I (8158973) WifiStation: Setting WiFi power save level: LOW_POWER (MAX_MODEM)
+10:19:00 I (8158973) wifi:Set ps type: 2, coexist: 0
+10:19:00 
+10:19:05 I (8163633) AudioCodec: Set output enable to false
+10:19:08 I (8166623) Application: Wake word detected: '你好小智' (state=idle)
+10:19:08 I (8166623) StateMachine: State: idle -> connecting
+10:19:08 I (8166623) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:19:08 I (8166623) wifi:Set ps type: 0, coexist: 0
+10:19:08 
+10:19:08 I (8166643) StateMachine: State: connecting -> wakeup_detected
+10:19:08 I (8166643) Application: Wake word detected (XiaoClaw WS): 你好小智
+10:19:08 I (8166653) XiaoClawWS: json sent len=56
+10:19:08 I (8166653) StateMachine: State: wakeup_detected -> listening
+10:19:08 I (8166653) XiaoClawWS: server state=wakeup_detected
+10:19:08 I (8166653) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:19:08 I (8166663) Application: XiaoClaw server state=wakeup_detected
+10:19:08 I (8166663) wifi:Set ps type: 0, coexist: 0
+10:19:08 
+10:19:08 I (8166673) Application: Ignore regressive remote state=wakeup_detected, current=listening
+10:19:08 I (8166693) XiaoClawWS: json sent len=47
+10:19:08 I (8166693) Application: XiaoClaw audio upload started
+10:19:08 I (8166693) AudioCodec: Set output enable to true
+10:19:08 I (8166843) StateMachine: State: listening -> uploading_audio
+10:19:08 W (8166843) SingleLed: Unknown led strip event: 14
+10:19:08 I (8166843) XiaoClawWS: FIRST opus frame uploaded len=147
+10:19:09 I (8167603) Application: opus cb OK count=426 len=143 upload_en=1 state=uploading_audio
+10:19:09 I (8168283) XiaoClawWS: opus upload frames=25 bytes=3661 last_len=147
+10:19:10 I (8169113) Application: opus cb OK count=451 len=147 upload_en=1 state=uploading_audio
+10:19:11 I (8169793) XiaoClawWS: opus upload frames=50 bytes=7301 last_len=144
+10:19:12 I (8170623) Application: opus cb OK count=476 len=146 upload_en=1 state=uploading_audio
+10:19:12 I (8171283) XiaoClawWS: opus upload frames=75 bytes=10984 last_len=147
+10:19:13 I (8172123) Application: opus cb OK count=501 len=143 upload_en=1 state=uploading_audio
+10:19:14 I (8172763) XiaoClawWS: opus upload frames=100 bytes=14646 last_len=146
+10:19:15 I (8173593) XiaoClawWS: server state=recognizing
+10:19:15 I (8173593) Application: XiaoClaw server state=recognizing
+10:19:15 I (8173603) StateMachine: State: uploading_audio -> recognizing
+10:19:15 W (8173603) SingleLed: Unknown led strip event: 15
+10:19:15 I (8173603) Application: recognizing timeout started (10s)
+10:19:15 I (8173613) XiaoClawWS: stt received len=60
+10:19:15 I (8173623) XiaoClawWS: server state=thinking
+10:19:15 I (8173623) Application: XiaoClaw server state=thinking
+10:19:15 I (8173623) StateMachine: State: recognizing -> thinking
+10:19:15 W (8173633) SingleLed: Unknown led strip event: 6
+10:19:15 I (8173633) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:19:15 I (8173643) wifi:Set ps type: 0, coexist: 0
+10:19:15 
+10:19:16 I (8175023) XiaoClawWS: tts start received
+10:19:16 I (8175033) Application: XiaoClaw tts_start -> synthesizing
+10:19:16 I (8175033) StateMachine: State: thinking -> synthesizing
+10:19:16 W (8175033) SingleLed: Unknown led strip event: 16
+10:19:16 I (8175033) XiaoClawWS: tts sentence state=sentence_start
+10:19:16 I (8175043) XiaoClawWS: FIRST tts binary frame len=93
+10:19:16 I (8175043) StateMachine: State: synthesizing -> speaking
+10:19:16 I (8175053) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:19:16 I (8175053) AudioService: Resampling audio from 24000 to 16000
+10:19:16 I (8175063) wifi:Set ps type: 0, coexist: 0
+10:19:16 
+10:19:17 I (8175643) XiaoClawWS: tts sentence state=sentence_start
+10:19:17 I (8176303) XiaoClawWS: tts binary frames=25 bytes=3506 last_len=173
+10:19:19 I (8177803) XiaoClawWS: tts binary frames=50 bytes=7793 last_len=157
+10:19:20 I (8179303) XiaoClawWS: tts binary frames=75 bytes=11341 last_len=107
+10:19:22 I (8180803) XiaoClawWS: tts binary frames=100 bytes=15605 last_len=209
+10:19:23 I (8182303) XiaoClawWS: tts binary frames=125 bytes=19646 last_len=162
+10:19:25 I (8183803) XiaoClawWS: tts binary frames=150 bytes=23781 last_len=134
+10:19:26 I (8184573) SystemInfo: free sram: 16503 minimal sram: 7691
+10:19:26 I (8184953) XiaoClawWS: tts stop received
+10:19:26 I (8184953) Application: XiaoClaw tts_end -> idle
+10:19:26 I (8184953) StateMachine: State: speaking -> idle
+10:19:26 I (8184963) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:19:36 I (8194573) SystemInfo: free sram: 16527 minimal sram: 7691
+10:19:36 I (8194963) OpenClawV27: Restoring Wi-Fi low power mode after follow-up window
+10:19:36 I (8194963) WifiStation: Setting WiFi power save level: LOW_POWER (MAX_MODEM)
+10:19:36 I (8194973) wifi:Set ps type: 2, coexist: 0
+10:19:36 
+10:19:41 I (8199693) AudioCodec: Set output enable to false
+10:19:46 I (8204573) SystemInfo: free sram: 16947 minimal sram: 7691
+10:19:55 I (8213653) Application: Wake word detected: '你好小智' (state=idle)
+10:19:55 I (8213653) StateMachine: State: idle -> connecting
+10:19:55 I (8213653) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:19:55 I (8213663) wifi:Set ps type: 0, coexist: 0
+10:19:55 
+10:19:55 I (8213673) StateMachine: State: connecting -> wakeup_detected
+10:19:55 I (8213673) Application: Wake word detected (XiaoClaw WS): 你好小智
+10:19:55 I (8213683) XiaoClawWS: json sent len=56
+10:19:55 I (8213683) StateMachine: State: wakeup_detected -> listening
+10:19:55 I (8213693) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:19:55 I (8213693) wifi:Set ps type: 0, coexist: 0
+10:19:55 
+10:19:55 I (8213703) XiaoClawWS: json sent len=47
+10:19:55 I (8213703) Application: XiaoClaw audio upload started
+10:19:55 I (8213703) AudioCodec: Set output enable to true
+10:19:55 I (8213723) XiaoClawWS: server state=wakeup_detected
+10:19:55 I (8213723) Application: XiaoClaw server state=wakeup_detected
+10:19:55 I (8213733) Application: Ignore regressive remote state=wakeup_detected, current=listening
+10:19:55 I (8213883) StateMachine: State: listening -> uploading_audio
+10:19:55 W (8213883) SingleLed: Unknown led strip event: 14
+10:19:55 I (8213893) XiaoClawWS: FIRST opus frame uploaded len=147
+10:19:57 I (8215323) Application: opus cb OK count=551 len=147 upload_en=1 state=uploading_audio
+10:19:57 I (8215323) XiaoClawWS: opus upload frames=25 bytes=3663 last_len=147
+10:19:58 I (8216793) Application: opus cb OK count=576 len=146 upload_en=1 state=uploading_audio
+10:19:58 I (8216803) XiaoClawWS: opus upload frames=50 bytes=7323 last_len=146
+10:19:58 I (8216993) XiaoClawWS: server state=recognizing
+10:19:58 I (8216993) Application: XiaoClaw server state=recognizing
+10:19:58 I (8217003) StateMachine: State: uploading_audio -> recognizing
+10:19:58 W (8217003) SingleLed: Unknown led strip event: 15
+10:19:58 I (8217003) Application: recognizing timeout started (10s)
+10:19:58 I (8217013) XiaoClawWS: stt received len=15
+10:19:59 I (8217473) XiaoClawWS: tts start received
+10:19:59 I (8217473) Application: XiaoClaw tts_start -> synthesizing
+10:19:59 I (8217473) StateMachine: State: recognizing -> synthesizing
+10:19:59 W (8217473) SingleLed: Unknown led strip event: 16
+10:19:59 I (8217473) XiaoClawWS: tts sentence state=sentence_start
+10:19:59 I (8217483) XiaoClawWS: FIRST tts binary frame len=111
+10:19:59 I (8217493) StateMachine: State: synthesizing -> speaking
+10:19:59 I (8217493) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:19:59 I (8217493) AudioService: Resampling audio from 24000 to 16000
+10:19:59 I (8217503) wifi:Set ps type: 0, coexist: 0
+10:19:59 
+10:20:00 I (8218633) XiaoClawWS: tts binary frames=25 bytes=4289 last_len=166
+10:20:01 I (8220133) XiaoClawWS: tts binary frames=50 bytes=8287 last_len=170
+10:20:03 I (8221623) XiaoClawWS: tts binary frames=75 bytes=12615 last_len=192
+10:20:04 I (8222463) XiaoClawWS: tts sentence state=sentence_start
+10:20:04 I (8223123) XiaoClawWS: tts binary frames=100 bytes=16160 last_len=171
+10:20:05 I (8223963) XiaoClawWS: tts stop received
+10:20:05 I (8223963) Application: XiaoClaw tts_end -> idle
+10:20:05 I (8223963) StateMachine: State: speaking -> idle
+10:20:05 I (8223973) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:20:07 I (8225393) Application: Wake word detected: '你好小智' (state=idle)
+10:20:07 I (8225393) StateMachine: State: idle -> connecting
+10:20:07 I (8225393) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:20:07 I (8225403) wifi:Set ps type: 0, coexist: 0
+10:20:07 
+10:20:07 I (8225423) StateMachine: State: connecting -> wakeup_detected
+10:20:07 I (8225423) Application: Wake word detected (XiaoClaw WS): 你好小智
+10:20:07 I (8225423) XiaoClawWS: json sent len=56
+10:20:07 I (8225423) StateMachine: State: wakeup_detected -> listening
+10:20:07 I (8225433) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:20:07 I (8225433) XiaoClawWS: server state=wakeup_detected
+10:20:07 I (8225433) wifi:I (8225443) Application: XiaoClaw server state=wakeup_detected
+10:20:07 Set ps type: 0, coexist: 0
+10:20:07 
+10:20:07 I (8225453) Application: Ignore regressive remote state=wakeup_detected, current=listening
+10:20:07 I (8225463) XiaoClawWS: json sent len=47
+10:20:07 I (8225473) Application: XiaoClaw audio upload started
+10:20:07 I (8225623) StateMachine: State: listening -> uploading_audio
+10:20:07 W (8225623) SingleLed: Unknown led strip event: 14
+10:20:07 I (8225623) XiaoClawWS: FIRST opus frame uploaded len=146
+10:20:08 I (8226383) Application: opus cb OK count=601 len=147 upload_en=1 state=uploading_audio
+10:20:08 I (8227063) XiaoClawWS: opus upload frames=25 bytes=3662 last_len=146
+10:20:09 I (8227893) Application: opus cb OK count=626 len=146 upload_en=1 state=uploading_audio
+10:20:10 I (8228563) XiaoClawWS: opus upload frames=50 bytes=7312 last_len=150
+10:20:10 I (8229003) XiaoClawWS: server state=recognizing
+10:20:10 I (8229003) Application: XiaoClaw server state=recognizing
+10:20:10 I (8229003) StateMachine: State: uploading_audio -> recognizing
+10:20:10 I (8229003) Application: recognizing timeout started (10s)
+10:20:10 W (8229003) SingleLed: Unknown led strip event: 15
+10:20:10 I (8229013) XiaoClawWS: stt received len=18
+10:20:10 I (8229023) XiaoClawWS: server state=thinking
+10:20:10 I (8229023) Application: XiaoClaw server state=thinking
+10:20:10 I (8229033) StateMachine: State: recognizing -> thinking
+10:20:10 W (8229033) SingleLed: Unknown led strip event: 6
+10:20:10 I (8229043) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:20:10 I (8229043) wifi:Set ps type: 0, coexist: 0
+10:20:10 
+10:20:11 I (8230053) XiaoClawWS: tts start received
+10:20:11 I (8230053) Application: XiaoClaw tts_start -> synthesizing
+10:20:11 I (8230053) StateMachine: State: thinking -> synthesizing
+10:20:11 W (8230063) SingleLed: Unknown led strip event: 16
+10:20:11 I (8230063) XiaoClawWS: tts sentence state=sentence_start
+10:20:11 I (8230073) XiaoClawWS: FIRST tts binary frame len=85
+10:20:11 I (8230073) StateMachine: State: synthesizing -> speaking
+10:20:11 I (8230083) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:20:11 I (8230083) AudioService: Resampling audio from 24000 to 16000
+10:20:11 I (8230083) wifi:Set ps type: 0, coexist: 0
+10:20:11 
+10:20:12 I (8231203) XiaoClawWS: tts binary frames=25 bytes=4118 last_len=129
+10:20:13 I (8231503) XiaoClawWS: tts sentence state=sentence_start
+10:20:14 I (8232703) XiaoClawWS: tts binary frames=50 bytes=7709 last_len=123
+10:20:15 I (8234203) XiaoClawWS: tts binary frames=75 bytes=11754 last_len=176
+10:20:17 I (8235823) XiaoClawWS: tts stop received
+10:20:17 I (8235823) Application: XiaoClaw tts_end -> idle
+10:20:17 I (8235823) StateMachine: State: speaking -> idle
+10:20:17 I (8235823) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:20:27 I (8245573) SystemInfo: free sram: 17051 minimal sram: 7691
+10:20:27 I (8245833) OpenClawV27: Restoring Wi-Fi low power mode after follow-up window
+10:20:27 I (8245833) WifiStation: Setting WiFi power save level: LOW_POWER (MAX_MODEM)
+10:20:27 I (8245833) wifi:Set ps type: 2, coexist: 0
+10:20:27 
+10:20:32 I (8250703) AudioCodec: Set output enable to false
+10:20:37 I (8255573) SystemInfo: free sram: 17603 minimal sram: 7691
+10:20:44 I (8263223) OpenClawV27: DIAG_BOOT_PRESS uptime_ms=8261992 state=idle
+10:20:44 I (8263223) StateMachine: State: idle -> wakeup_detected
+10:20:44 I (8263223) StateMachine: State: wakeup_detected -> listening
+10:20:44 I (8263223) XiaoClawWS: json sent len=49
+10:20:44 I (8263233) Application: XiaoClaw audio upload started
+10:20:44 I (8263233) OpenClawV27: P5.2 BOOT listen start, audio upload enabled
+10:20:44 I (8263223) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:20:44 I (8263243) wifi:Set ps type: 0, coexist: 0
+10:20:44 
+10:20:44 I (8263253) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:20:44 I (8263253) wifi:Set ps type: 0, coexist: 0
+10:20:44 
+10:20:45 I (8263393) StateMachine: State: listening -> uploading_audio
+10:20:45 I (8263403) XiaoClawWS: FIRST opus frame uploaded len=146
+10:20:45 W (8263403) SingleLed: Unknown led strip event: 14
+10:20:45 I (8263473) OpenClawV27: P5.2 BOOT released, upload flush scheduled in 1.5s
+10:20:45 I (8263483) Application: opus cb OK count=651 len=147 upload_en=1 state=uploading_audio
+10:20:45 I (8263953) XiaoClawWS: opus upload frames=25 bytes=3662 last_len=146
+10:20:45 I (8264303) Application: opus cb OK count=676 len=146 upload_en=1 state=uploading_audio
+10:20:46 I (8264973) OpenClawV27: BOOT upload flush timer fired, scheduling stop on main task
+10:20:46 I (8264973) Application: XiaoClaw audio upload stopped
+10:20:46 I (8264973) XiaoClawWS: json sent len=32
+10:20:46 I (8264973) StateMachine: State: uploading_audio -> recognizing
+10:20:46 I (8264983) XiaoClawWS: server state=recognizing
+10:20:46 I (8264983) Application: recognizing timeout started (10s)
+10:20:46 I (8264983) Application: XiaoClaw server state=recognizing
+10:20:46 I (8264993) OpenClawV27: P5.2 BOOT delayed listen stop completed
+10:20:46 W (8265003) SingleLed: Unknown led strip event: 15
+10:20:46 I (8265073) XiaoClawWS: server state=recognizing
+10:20:46 I (8265083) Application: XiaoClaw server state=recognizing
+10:20:46 I (8265083) XiaoClawWS: stt received len=6
+10:20:46 I (8265083) XiaoClawWS: server state=thinking
+10:20:46 I (8265083) Application: XiaoClaw server state=thinking
+10:20:46 I (8265103) StateMachine: State: recognizing -> thinking
+10:20:46 W (8265103) SingleLed: Unknown led strip event: 6
+10:20:46 I (8265103) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:20:46 I (8265103) wifi:Set ps type: 0, coexist: 0
+10:20:46 
+10:20:48 I (8266483) XiaoClawWS: tts start received
+10:20:48 I (8266483) Application: XiaoClaw tts_start -> synthesizing
+10:20:48 I (8266483) StateMachine: State: thinking -> synthesizing
+10:20:48 W (8266483) SingleLed: Unknown led strip event: 16
+10:20:48 I (8266483) XiaoClawWS: tts sentence state=sentence_start
+10:20:48 I (8266493) XiaoClawWS: FIRST tts binary frame len=118
+10:20:48 I (8266503) StateMachine: State: synthesizing -> speaking
+10:20:48 I (8266503) AudioCodec: Set output enable to true
+10:20:48 I (8266503) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:20:48 I (8266513) wifi:Set ps type: 0, coexist: 0
+10:20:48 
+10:20:49 I (8267623) XiaoClawWS: tts binary frames=25 bytes=4260 last_len=189
+10:20:50 I (8268833) XiaoClawWS: tts sentence state=sentence_start
+10:20:50 I (8269133) XiaoClawWS: tts binary frames=50 bytes=7900 last_len=182
+10:20:52 I (8270633) XiaoClawWS: tts binary frames=75 bytes=12146 last_len=177
+10:20:53 I (8271833) XiaoClawWS: tts stop received
+10:20:53 I (8271833) Application: XiaoClaw tts_end -> idle
+10:20:53 I (8271833) StateMachine: State: speaking -> idle
+10:20:53 I (8271833) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:21:03 I (8281583) SystemInfo: free sram: 17411 minimal sram: 7691
+10:21:03 I (8281843) OpenClawV27: Restoring Wi-Fi low power mode after follow-up window
+10:21:03 I (8281843) WifiStation: Setting WiFi power save level: LOW_POWER (MAX_MODEM)
+10:21:03 I (8281843) wifi:Set ps type: 2, coexist: 0
+10:21:03 
+10:21:06 I (8284553) OpenClawV27: DIAG_BOOT_PRESS uptime_ms=8283322 state=idle
+10:21:06 I (8284553) StateMachine: State: idle -> wakeup_detected
+10:21:06 I (8284553) StateMachine: State: wakeup_detected -> listening
+10:21:06 I (8284553) XiaoClawWS: json sent len=49
+10:21:06 I (8284563) Application: XiaoClaw audio upload started
+10:21:06 I (8284563) OpenClawV27: P5.2 BOOT listen start, audio upload enabled
+10:21:06 I (8284553) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:21:06 I (8284573) wifi:Set ps type: 0, coexist: 0
+10:21:06 
+10:21:06 I (8284583) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:21:06 I (8284583) wifi:Set ps type: 0, coexist: 0
+10:21:06 
+10:21:06 I (8284593) OpenClawV27: P5.2 BOOT released, upload flush scheduled in 1.5s
+10:21:06 I (8284723) StateMachine: State: listening -> uploading_audio
+10:21:06 W (8284723) SingleLed: Unknown led strip event: 14
+10:21:06 I (8284723) XiaoClawWS: FIRST opus frame uploaded len=146
+10:21:06 I (8284933) Application: opus cb OK count=701 len=147 upload_en=1 state=uploading_audio
+10:21:06 I (8285243) XiaoClawWS: opus upload frames=25 bytes=3662 last_len=146
+10:21:07 I (8286093) OpenClawV27: BOOT upload flush timer fired, scheduling stop on main task
+10:21:07 I (8286093) Application: XiaoClaw audio upload stopped
+10:21:07 I (8286093) XiaoClawWS: json sent len=32
+10:21:07 I (8286093) StateMachine: State: uploading_audio -> recognizing
+10:21:07 I (8286103) Application: recognizing timeout started (10s)
+10:21:07 I (8286103) XiaoClawWS: server state=recognizing
+10:21:07 I (8286103) OpenClawV27: P5.2 BOOT delayed listen stop completed
+10:21:07 I (8286113) Application: XiaoClaw server state=recognizing
+10:21:07 W (8286113) SingleLed: Unknown led strip event: 15
+10:21:07 I (8286213) XiaoClawWS: server state=recognizing
+10:21:07 I (8286223) Application: XiaoClaw server state=recognizing
+10:21:07 I (8286223) XiaoClawWS: stt received len=6
+10:21:07 I (8286223) XiaoClawWS: server state=thinking
+10:21:07 I (8286223) Application: XiaoClaw server state=thinking
+10:21:07 I (8286233) StateMachine: State: recognizing -> thinking
+10:21:07 W (8286233) SingleLed: Unknown led strip event: 6
+10:21:07 I (8286243) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:21:07 I (8286243) wifi:Set ps type: 0, coexist: 0
+10:21:07 
+10:21:09 I (8287503) AudioCodec: Set output enable to false
+10:21:09 I (8287613) XiaoClawWS: tts start received
+10:21:09 I (8287613) Application: XiaoClaw tts_start -> synthesizing
+10:21:09 I (8287613) StateMachine: State: thinking -> synthesizing
+10:21:09 W (8287623) SingleLed: Unknown led strip event: 16
+10:21:09 I (8287623) XiaoClawWS: tts sentence state=sentence_start
+10:21:09 I (8287633) XiaoClawWS: FIRST tts binary frame len=101
+10:21:09 I (8287633) StateMachine: State: synthesizing -> speaking
+10:21:09 I (8287643) AudioCodec: Set output enable to true
+10:21:09 I (8287643) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:21:09 I (8287653) wifi:Set ps type: 0, coexist: 0
+10:21:09 
+10:21:10 I (8288763) XiaoClawWS: tts binary frames=25 bytes=4189 last_len=164
+10:21:11 I (8290153) XiaoClawWS: tts sentence state=sentence_start
+10:21:11 I (8290263) XiaoClawWS: tts binary frames=50 bytes=7703 last_len=204
+10:21:13 I (8291773) XiaoClawWS: tts binary frames=75 bytes=11901 last_len=175
+10:21:14 I (8293263) XiaoClawWS: tts binary frames=100 bytes=15707 last_len=181
+10:21:16 I (8294763) XiaoClawWS: tts binary frames=125 bytes=19799 last_len=95
+10:21:17 I (8295433) XiaoClawWS: tts stop received
+10:21:17 I (8295433) Application: XiaoClaw tts_end -> idle
+10:21:17 I (8295433) StateMachine: State: speaking -> idle
+10:21:17 I (8295433) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:21:19 I (8297923) OpenClawV27: DIAG_BOOT_PRESS uptime_ms=8296692 state=idle
+10:21:19 I (8297923) StateMachine: State: idle -> wakeup_detected
+10:21:19 I (8297923) StateMachine: State: wakeup_detected -> listening
+10:21:19 I (8297923) XiaoClawWS: json sent len=49
+10:21:19 I (8297933) Application: XiaoClaw audio upload started
+10:21:19 I (8297933) OpenClawV27: P5.2 BOOT listen start, audio upload enabled
+10:21:19 I (8297943) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:21:19 I (8297943) wifi:Set ps type: 0, coexist: 0
+10:21:19 
+10:21:19 I (8297953) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:21:19 I (8297953) wifi:Set ps type: 0, coexist: 0
+10:21:19 
+10:21:19 I (8298103) Application: opus cb OK count=726 len=146 upload_en=1 state=listening
+10:21:19 I (8298103) StateMachine: State: listening -> uploading_audio
+10:21:19 W (8298103) SingleLed: Unknown led strip event: 14
+10:21:19 I (8298103) XiaoClawWS: FIRST opus frame uploaded len=146
+10:21:19 I (8298123) OpenClawV27: P5.2 BOOT released, upload flush scheduled in 1.5s
+10:21:20 I (8298623) XiaoClawWS: opus upload frames=25 bytes=3633 last_len=147
+10:21:20 I (8298683) Application: opus cb OK count=751 len=147 upload_en=1 state=uploading_audio
+10:21:21 I (8299623) OpenClawV27: BOOT upload flush timer fired, scheduling stop on main task
+10:21:21 I (8299623) Application: XiaoClaw audio upload stopped
+10:21:21 I (8299623) XiaoClawWS: json sent len=32
+10:21:21 I (8299633) StateMachine: State: uploading_audio -> recognizing
+10:21:21 I (8299633) Application: recognizing timeout started (10s)
+10:21:21 I (8299633) XiaoClawWS: server state=recognizing
+10:21:21 I (8299643) OpenClawV27: P5.2 BOOT delayed listen stop completed
+10:21:21 I (8299643) Application: XiaoClaw server state=recognizing
+10:21:21 W (8299653) SingleLed: Unknown led strip event: 15
+10:21:21 I (8299773) XiaoClawWS: server state=recognizing
+10:21:21 I (8299773) Application: XiaoClaw server state=recognizing
+10:21:21 I (8299773) XiaoClawWS: stt received len=9
+10:21:21 I (8299773) XiaoClawWS: server state=thinking
+10:21:21 I (8299783) Application: XiaoClaw server state=thinking
+10:21:21 I (8299793) StateMachine: State: recognizing -> thinking
+10:21:21 W (8299793) SingleLed: Unknown led strip event: 6
+10:21:21 I (8299793) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:21:21 I (8299803) wifi:Set ps type: 0, coexist: 0
+10:21:21 
+10:21:22 I (8301263) XiaoClawWS: tts start received
+10:21:22 I (8301263) Application: XiaoClaw tts_start -> synthesizing
+10:21:22 I (8301263) StateMachine: State: thinking -> synthesizing
+10:21:22 W (8301263) SingleLed: Unknown led strip event: 16
+10:21:22 I (8301263) XiaoClawWS: tts sentence state=sentence_start
+10:21:22 I (8301273) XiaoClawWS: FIRST tts binary frame len=93
+10:21:22 I (8301283) StateMachine: State: synthesizing -> speaking
+10:21:22 I (8301283) WifiStation: Setting WiFi power save level: PERFORMANCE (NONE)
+10:21:22 I (8301293) wifi:Set ps type: 0, coexist: 0
+10:21:22 
+10:21:24 I (8302413) XiaoClawWS: tts binary frames=25 bytes=4234 last_len=198
+10:21:24 I (8302833) XiaoClawWS: tts sentence state=sentence_start
+10:21:25 I (8303913) XiaoClawWS: tts binary frames=50 bytes=7775 last_len=162
+10:21:27 I (8305413) XiaoClawWS: tts binary frames=75 bytes=11310 last_len=21
+10:21:27 I (8305423) XiaoClawWS: tts sentence state=sentence_start
+10:21:28 I (8306913) XiaoClawWS: tts binary frames=100 bytes=15284 last_len=161
+10:21:29 I (8308233) XiaoClawWS: tts sentence state=sentence_start
+10:21:30 I (8308413) XiaoClawWS: tts binary frames=125 bytes=18849 last_len=162
+10:21:31 I (8309913) XiaoClawWS: tts binary frames=150 bytes=22979 last_len=85
+10:21:32 I (8310573) SystemInfo: free sram: 16587 minimal sram: 7619
+10:21:33 I (8311413) XiaoClawWS: tts binary frames=175 bytes=26880 last_len=143
+10:21:34 I (8312903) XiaoClawWS: tts binary frames=200 bytes=31013 last_len=181
+10:21:36 I (8314413) XiaoClawWS: tts binary frames=225 bytes=35275 last_len=166
+10:21:37 I (8315963) XiaoClawWS: tts binary frames=250 bytes=39570 last_len=103
+10:21:39 I (8317413) XiaoClawWS: tts binary frames=275 bytes=43892 last_len=162
+10:21:40 I (8318903) XiaoClawWS: tts binary frames=300 bytes=48239 last_len=170
+10:21:42 I (8320403) XiaoClawWS: tts binary frames=325 bytes=52472 last_len=193
+10:21:42 I (8320573) SystemInfo: free sram: 16671 minimal sram: 7619
+10:21:43 I (8321923) XiaoClawWS: tts binary frames=350 bytes=56815 last_len=192
+10:21:45 I (8323413) XiaoClawWS: tts binary frames=375 bytes=61136 last_len=193
+10:21:46 I (8324903) XiaoClawWS: tts binary frames=400 bytes=65262 last_len=194
+10:21:48 I (8326453) XiaoClawWS: tts binary frames=425 bytes=69743 last_len=167
+10:21:49 I (8327913) XiaoClawWS: tts binary frames=450 bytes=74063 last_len=180
+10:21:51 I (8329413) XiaoClawWS: tts binary frames=475 bytes=78114 last_len=40
+10:21:51 I (8329593) XiaoClawWS: tts sentence state=sentence_start
+10:21:52 I (8330573) SystemInfo: free sram: 17271 minimal sram: 7619
+10:21:52 I (8330583) XiaoClawWS: json sent len=15
+10:21:52 I (8330913) XiaoClawWS: tts binary frames=500 bytes=81901 last_len=121
+10:21:52 I (8331213) XiaoClawWS: tts sentence state=sentence_start
+10:21:54 I (8332413) XiaoClawWS: tts binary frames=525 bytes=85399 last_len=163
+10:21:54 I (8333263) XiaoClawWS: tts sentence state=sentence_start
+10:21:55 I (8333913) XiaoClawWS: tts binary frames=550 bytes=89048 last_len=180
+10:21:56 I (8335183) XiaoClawWS: tts sentence state=sentence_start
+10:21:57 I (8335413) XiaoClawWS: tts binary frames=575 bytes=92519 last_len=162
+10:21:58 I (8336913) XiaoClawWS: tts binary frames=600 bytes=96437 last_len=193
+10:22:00 I (8338403) XiaoClawWS: tts binary frames=625 bytes=100317 last_len=195
+10:22:01 I (8339913) XiaoClawWS: tts binary frames=650 bytes=104319 last_len=188
+10:22:02 I (8340583) SystemInfo: free sram: 17243 minimal sram: 7619
+10:22:03 I (8341413) XiaoClawWS: tts binary frames=675 bytes=108387 last_len=146
+10:22:04 I (8342733) XiaoClawWS: tts stop received
+10:22:04 I (8342733) Application: XiaoClaw tts_end -> idle
+10:22:04 I (8342733) StateMachine: State: speaking -> idle
+10:22:04 I (8342733) OpenClawV27: Delay Wi-Fi low power restore by 10000 ms
+10:22:14 I (8352583) SystemInfo: free sram: 17931 minimal sram: 7619
+10:22:14 I (8352733) OpenClawV27: Restoring Wi-Fi low power mode after follow-up window
+10:22:14 I (8352733) WifiStation: Setting WiFi power save level: LOW_POWER (MAX_MODEM)
+10:22:14 I (8352743) wifi:Set ps type: 2, coexist: 0
+10:22:14 
+10:22:20 I (8358643) AudioCodec: Set output enable to false
+10:22:24 I (8362573) SystemInfo: free sram: 17835 minimal sram: 7619
