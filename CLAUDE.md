@@ -155,12 +155,7 @@ First-version Skill support is basic loading and invocation only:
 
 ## Current Direction Snapshot
 
-As of 2026-05-28, continue from stable baseline `XCB-STABLE-P7-complete+20260528.142020`.
-P7 Baidu STREAM ASR/TTS收口体验已通过实机稳定性复测：普通 LLM、工具轮、长回复、播放中 BOOT abort、连续 5 轮随机对话均自然收口，无 `ROUND_TIMEOUT` / `TTS_TIMEOUT` / 连接断开 / 状态残留。
-Fast path bug (现在几点了偶发未命中)已于 2026-05-28第二版修复。
-本轮实际修复了两件事：
-1. time_words 收窄为只匹配 `几点`，移除上一版错误纳入的 `什么时候`/`啥时间`/`几时`（那些词误伤了 `你什么时候有空` 等正常问题）
-2. 修复 `startToChat()` 中 JSON 输入时 `actual_text` 被原始 JSON 覆盖的 bug（这才是偶发未命中的隐藏根因）
-Fast path tests 34/34, all tests 60/60.
-P7 收口至此全部完成，相关文档口径与问题编号已对齐。
-Next direction: P8 自定义 Skill 与 Agent 循环。不提前启动 P9。
+As of 2026-06-04, Phase 1 P0-P9 remains complete from stable baseline `XCB-STABLE-P9-complete+P6clean+20260602.123952`.
+P6 thin-client cleanup remains closed, and P9 local wake word acceptance passed 10/10 real-device retests on 2026-06-02.
+A 2026-06-04 project audit did not find a new functional blocker that reopens Phase 1; the remaining loose ends were stale post-P9 document pointers, which have now been aligned.
+Next direction: Phase 2 P1 配置与持久化基线。先明确哪些默认配置必须跨更新保留，以及默认 global skill / cloned Baidu voice / agent persona 的权威存储位置。
